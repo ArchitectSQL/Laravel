@@ -11,6 +11,7 @@
 |
 */
 
+
 Route::get('/', ['as'=>'home','uses'=>'Admin\IndexController@show']);
 
 
@@ -32,3 +33,4 @@ Route::resource('/pages','Admin\CoreResource',['only'=>['index','show']]);*/ //p
 Route::group(['middleware' => ['web']], function () {
 
 });
+

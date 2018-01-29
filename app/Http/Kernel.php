@@ -14,12 +14,15 @@ class Kernel extends HttpKernel
      * @var array
      */
     protected $middleware = [
+
         \Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode::class, // проверяет , не находится ли приложение в режиме обслуживания
+
         \Illuminate\Foundation\Http\Middleware\ValidatePostSize::class,
         \App\Http\Middleware\TrimStrings::class,
         \Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull::class,
         \App\Http\Middleware\TrustProxies::class,
         //\App\Http\Middleware\Mymiddleware::class,
+
     ];
 
     /**
@@ -59,5 +62,6 @@ class Kernel extends HttpKernel
         'guest' => \App\Http\Middleware\RedirectIfAuthenticated::class,
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
         'mymiddle' => \App\Http\Middleware\Mymiddleware::class,
+
     ];
 }

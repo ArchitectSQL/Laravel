@@ -408,6 +408,7 @@
         },
         {
             "name": "laravel/framework",
+<<<<<<< HEAD
             "version": "v5.5.32",
             "source": {
                 "type": "git",
@@ -418,6 +419,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/framework/zipball/254e4c3e133f5bc8d6068cdf28ea062abc10adf2",
                 "reference": "254e4c3e133f5bc8d6068cdf28ea062abc10adf2",
+=======
+            "version": "v5.5.29",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/framework.git",
+                "reference": "c58b6ff96fb56cc92e24545870be13cdcfcbc43a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/c58b6ff96fb56cc92e24545870be13cdcfcbc43a",
+                "reference": "c58b6ff96fb56cc92e24545870be13cdcfcbc43a",
+>>>>>>> 6adf3e1d1cfaec61beea4cffc54285f4479fdd2a
                 "shasum": ""
             },
             "require": {
@@ -538,7 +551,11 @@
                 "framework",
                 "laravel"
             ],
+<<<<<<< HEAD
             "time": "2018-01-18T13:27:23+00:00"
+=======
+            "time": "2018-01-15T14:07:47+00:00"
+>>>>>>> 6adf3e1d1cfaec61beea4cffc54285f4479fdd2a
         },
         {
             "name": "laravel/tinker",
@@ -1178,6 +1195,7 @@
         },
         {
             "name": "ramsey/uuid",
+<<<<<<< HEAD
             "version": "3.7.3",
             "source": {
                 "type": "git",
@@ -1188,6 +1206,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/ramsey/uuid/zipball/44abcdad877d9a46685a3a4d221e3b2c4b87cb76",
                 "reference": "44abcdad877d9a46685a3a4d221e3b2c4b87cb76",
+=======
+            "version": "3.7.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ramsey/uuid.git",
+                "reference": "bba83ad77bb9deb6d3c352a7361b818e415b221d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ramsey/uuid/zipball/bba83ad77bb9deb6d3c352a7361b818e415b221d",
+                "reference": "bba83ad77bb9deb6d3c352a7361b818e415b221d",
+>>>>>>> 6adf3e1d1cfaec61beea4cffc54285f4479fdd2a
                 "shasum": ""
             },
             "require": {
@@ -1198,15 +1228,27 @@
                 "rhumsaa/uuid": "self.version"
             },
             "require-dev": {
+<<<<<<< HEAD
+=======
+                "apigen/apigen": "^4.1",
+>>>>>>> 6adf3e1d1cfaec61beea4cffc54285f4479fdd2a
                 "codeception/aspect-mock": "^1.0 | ~2.0.0",
                 "doctrine/annotations": "~1.2.0",
                 "goaop/framework": "1.0.0-alpha.2 | ^1.0 | ^2.1",
                 "ircmaxell/random-lib": "^1.1",
                 "jakub-onderka/php-parallel-lint": "^0.9.0",
+<<<<<<< HEAD
                 "mockery/mockery": "^0.9.9",
                 "moontoast/math": "^1.1",
                 "php-mock/php-mock-phpunit": "^0.3|^1.1",
                 "phpunit/phpunit": "^4.7|^5.0",
+=======
+                "mockery/mockery": "^0.9.4",
+                "moontoast/math": "^1.1",
+                "php-mock/php-mock-phpunit": "^0.3|^1.1",
+                "phpunit/phpunit": "^4.7|^5.0",
+                "satooshi/php-coveralls": "^0.6.1",
+>>>>>>> 6adf3e1d1cfaec61beea4cffc54285f4479fdd2a
                 "squizlabs/php_codesniffer": "^2.3"
             },
             "suggest": {
@@ -1254,7 +1296,11 @@
                 "identifier",
                 "uuid"
             ],
+<<<<<<< HEAD
             "time": "2018-01-20T00:28:24+00:00"
+=======
+            "time": "2018-01-13T22:22:03+00:00"
+>>>>>>> 6adf3e1d1cfaec61beea4cffc54285f4479fdd2a
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -3817,6 +3863,7 @@
         },
         {
             "name": "symfony/thanks",
+<<<<<<< HEAD
             "version": "v1.0.3",
             "source": {
                 "type": "git",
@@ -3832,6 +3879,23 @@
             "require": {
                 "composer-plugin-api": "^1.0",
                 "php": "^5.5.9|^7.0.0"
+=======
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/thanks.git",
+                "reference": "b637913a92664571afd1067fc645ecb30c9cf5b2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/thanks/zipball/b637913a92664571afd1067fc645ecb30c9cf5b2",
+                "reference": "b637913a92664571afd1067fc645ecb30c9cf5b2",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.1",
+                "php": "^5.5.9|^7.0.8"
+>>>>>>> 6adf3e1d1cfaec61beea4cffc54285f4479fdd2a
             },
             "type": "composer-plugin",
             "extra": {
@@ -3856,7 +3920,11 @@
                 }
             ],
             "description": "Give thanks (in the form of a GitHub ⭐) to your fellow PHP package maintainers (not limited to Symfony components)!",
+<<<<<<< HEAD
             "time": "2018-01-19T16:12:41+00:00"
+=======
+            "time": "2018-01-03T09:30:52+00:00"
+>>>>>>> 6adf3e1d1cfaec61beea4cffc54285f4479fdd2a
         },
         {
             "name": "theseer/tokenizer",
