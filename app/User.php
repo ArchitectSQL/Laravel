@@ -4,6 +4,9 @@ namespace App;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
+use App\Countrys;
+use App\Article;
+use App\Role;
 
 class User extends Authenticatable
 {
@@ -29,7 +32,14 @@ class User extends Authenticatable
 
 
     public function country() {
-        
+        return $this->hasOne('App\Countrys');
+    }
+    public function articles() {
+        return $this->hasMany('App\Article');
+    }
+
+    public function role() {
+        return $this->belongsToMany('App\Role');
     }
 
 }
